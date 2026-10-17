@@ -7,5 +7,13 @@ public class Main {
         int totalstudents = courseA.RegisteredStudents + courseB.RegisteredStudents + courseC.RegisteredStudents;
         int averageOfStudents = totalstudents / no_of_courses;
         double averageOfStudentsAsDouble = (double) totalstudents / no_of_courses;
+        System.out.println("first object");
+        courseA.result();
+        System.out.println("Second object");
+        courseB.result();
+        System.out.println("Third object");
+        courseC.result();
+        System.out.println("Total number of students = " + totalstudents);
+        System.out.println("The average of students per course =" + averageOfStudents);
     }
 }
