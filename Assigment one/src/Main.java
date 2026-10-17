@@ -5,5 +5,7 @@ public class Main {
         studies courseC = new studies("Database", 60, 90);
         int no_of_courses = 3;
         int totalstudents = courseA.RegisteredStudents + courseB.RegisteredStudents + courseC.RegisteredStudents;
+        int averageOfStudents = totalstudents / no_of_courses;
+        double averageOfStudentsAsDouble = (double) totalstudents / no_of_courses;
     }
 }
